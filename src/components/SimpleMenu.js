@@ -15,10 +15,10 @@ export default function SimpleMenu({ anchorEl, handleClose }) {
       onClose={handleClose}
     >
       <MenuItem onClick={handleClose}>
-        <Link to="/">Dashboard</Link>
+        <Link to="/">Surveys</Link>
       </MenuItem>
       <MenuItem onClick={handleClose}>
-        <Link to="/surveys">Surveys</Link>
+        <Link to="/dashboard">Dashboard</Link>
       </MenuItem>
       <MenuItem onClick={handleClose}>
         <Link to="/logout">Logout</Link>
